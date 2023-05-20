@@ -1,4 +1,5 @@
 .pageLink {
+	font-family: "trebuchet ms", Sans-Serif;
 	text-decoration: none;
 	color: #000000;
 	font-size: 2em;
@@ -6,6 +7,7 @@
 }
 
 .pageLink:hover {
+	font-family: "trebuchet ms", Sans-Serif;
 	text-decoration: none;
 	color: #fdc921;
 	font-size: 2em;
@@ -13,6 +15,7 @@
 }
 
 .pageLinkActive {
+	font-family: "trebuchet ms", Sans-Serif;
 	text-decoration: none;
 	color: #fdc921;
 	font-size: 2em;
@@ -20,5 +23,30 @@
 }
 
 .sideNav{
-	
+	font-family: "trebuchet ms", Sans-Serif;
+	height: 100%; /* 100% Full-height */
+	width: 20%; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: #fff; /* White*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	padding-bottom: 60px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body{
+	font-family: "trebuchet ms", Sans-Serif;
+	height: 100%;
+	width: 54%;
+	position: fixed; /* Stay in place */
+	left: 0;
+	background-color: #fff; /* White*/
+	padding-top: 30px; /* Place content 60px from the top */
+	padding-bottom: 30px; 
+	padding-left: 23%;
+	padding-right: 23%;
 }
