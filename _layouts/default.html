@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <!-- add icon link -->
+        <link rel = "icon" href = "/assets/images/Star.png" type = "image/x-icon">
+    </head>
+
+    <div class="sideNav">
+        <link rel="stylesheet" href="/assets/css/styles.css"/>
+        <h1>Sonali Joshi</h1>
+        <p>Ph.D Student in Physics at the University of Urbana-Champaign</p>
+        <!--
+            Future Links
+            - LinkedIn
+            - Email
+            - Github 
+
+            Future Pages
+        <a href="#">Blog Posts</a>
+        -->
+
+        {% include navigation.html %}
+    </div>
+
+  <body>
+    {{ content }}
+  </body>
+</html>

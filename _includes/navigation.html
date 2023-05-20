@@ -1,0 +1,11 @@
+<nav>
+    <!--fix Hover link-->
+    {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" 
+        {% if page.url == item.link %} class="pageLinkActive"
+        {% else %} class="pageLink"
+        {% endif %}>
+            <br>{{ item.name }}
+        </a>
+    {% endfor %}
+</nav>

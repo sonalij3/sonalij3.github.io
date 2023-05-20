@@ -1,3 +1,24 @@
-.current {
-	color: yellow;
+.pageLink {
+	text-decoration: none;
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.pageLink:hover {
+	text-decoration: none;
+	color: #fdc921;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.pageLinkActive {
+	text-decoration: none;
+	color: #fdc921;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.sideNav{
+	
 }
