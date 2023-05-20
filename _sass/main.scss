@@ -22,6 +22,22 @@
 	font-weight: bold;
 }
 
+.linkSmall {
+	font-family: "trebuchet ms", Sans-Serif;
+	text-decoration: none;
+	color: #222222;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.linkSmall:hover {
+	font-family: "trebuchet ms", Sans-Serif;
+	text-decoration: none;
+	color: #444444;
+	font-size: 1em;
+	font-weight: bold;
+}
+
 .sideNav{
 	font-family: "trebuchet ms", Sans-Serif;
 	height: 100%; /* 100% Full-height */
